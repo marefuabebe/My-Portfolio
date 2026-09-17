@@ -93,6 +93,7 @@ export default function About() {
               <div className="mt-3 sm:mt-6 flex flex-wrap items-center gap-2 sm:gap-3">
                 <a
                   href={personalInfo.cvUrl}
+                  download="Marefu-Abebe-CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="ref-btn-primary inline-flex items-center gap-1.5 sm:gap-2.5 rounded-full px-3.5 py-1.5 sm:px-7 sm:py-3 text-xs sm:text-sm font-bold shadow-[0_0_20px_rgba(20,255,197,0.25)] transition-all duration-300 hover:shadow-[0_0_30px_rgba(20,255,197,0.45)] active:scale-95 cursor-pointer"
@@ -428,7 +429,9 @@ export default function About() {
               </div>
               <a
                 href={personalInfo.cvUrl}
-                download
+                download="Marefu-Abebe-CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex shrink-0 items-center gap-1 text-[13px] font-semibold text-primary hover:text-primary-bright"
               >
                 Download Resume

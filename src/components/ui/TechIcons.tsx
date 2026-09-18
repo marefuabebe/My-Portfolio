@@ -171,6 +171,23 @@ export function TechIcon({ name, className = "w-10 h-10 sm:w-11 sm:h-11", size }
         </svg>
       );
 
+    case "springboot":
+    case "spring":
+      return (
+        <svg viewBox="0 0 32 32" className={className} style={style} fill="none">
+          <rect width="32" height="32" rx="7" fill="#6DB33F" />
+          <path
+            d="M24.7 12.6C24.4 12.2 22.2 12.1 19.5 13.1C16.8 14.1 14.8 16.5 14.5 19.3C14.4 20.2 14.5 21 14.8 21.8C14.2 21.5 13.6 21 13.1 20.3C12.1 19 11.9 17.2 12.6 15.6C13.1 14.4 14 13.5 15.1 12.9C15.8 12.5 15.5 11.5 14.7 11.5C12.4 11.5 10.2 13 9.3 15.3C8.1 18.2 9 21.6 11.3 23.5C13 24.9 15.3 25.5 17.5 25C20.7 24.3 23.3 21.6 23.8 18.4C24.1 16.2 24.8 13.2 24.7 12.6Z"
+            fill="#FFFFFF"
+          />
+          <path
+            d="M21.5 8.2C16.8 8.8 13.2 12.5 12.7 17.2C12.6 18.1 12.7 19 13 19.8C13.2 20.3 13.8 20.4 14.2 20C14.6 19.6 14.6 19 14.4 18.5C14.1 17.7 14 16.8 14.1 15.9C14.5 12.9 17 10.4 20 10C20.6 9.9 21 9.4 20.9 8.8C20.8 8.3 21 8.2 21.5 8.2Z"
+            fill="#FFFFFF"
+            opacity="0.85"
+          />
+        </svg>
+      );
+
     case "php":
       return (
         <svg viewBox="0 0 32 32" className={className} style={style} fill="none">

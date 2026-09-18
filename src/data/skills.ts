@@ -29,7 +29,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Node.js", icon: "nodejs" },
       { name: "Express.js", icon: "expressjs" },
       { name: "MongoDB", icon: "mongodb" },
-      { name: "PHP", icon: "php" },
+      { name: "Spring Boot", icon: "springboot" },
       { name: "MySQL", icon: "mysql" },
     ],
   },

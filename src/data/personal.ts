@@ -6,10 +6,10 @@ export const personalInfo = {
   roles: ["Software Engineer", "Web Developer", "Problem Solver"],
   tagline: "Turning Ideas Into Digital Experiences.",
   taglineHighlight: "Digital Experiences.",
-  bio: `I'm a 3rd year Software Engineering student at Wachemo University. I'm passionate about building modern web applications and creating digital solutions that make an impact. I love learning new technologies and turning ideas into real products.`,
-  shortBio: `I'm a 3rd year Software Engineering student at Wachemo University. I build modern, responsive and user-friendly web applications, and I blog create content and design visuals for the internet.`,
-  education: "Wachemo University — College of Engineering & Technology, Department of Software Engineering (3rd Year)",
-  educationShort: "3rd Year Software Engineering Student at Wachemo University",
+  bio: `I'm a 4th year Software Engineering student at Wachemo University. I'm passionate about building modern web applications and creating digital solutions that make an impact. I love learning new technologies and turning ideas into real products.`,
+  shortBio: `I'm a 4th year Software Engineering student at Wachemo University. I build modern, responsive and user-friendly web applications, and I blog create content and design visuals for the internet.`,
+  education: "Wachemo University — College of Engineering & Technology, Department of Software Engineering (4th Year)",
+  educationShort: "4th Year Software Engineering Student at Wachemo University",
   location: "Durame, Ethiopia",
   university: "Wachemo University",
   email: "abebemarefu266@gmail.com",
@@ -78,6 +78,7 @@ export const aboutSkills = [
   { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" },
   { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" },
   { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" },
+  { name: "Spring Boot", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" },
   { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" },
   { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" },
   { name: "Figma", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" },
@@ -94,10 +95,10 @@ export interface EducationExperienceItem {
 
 export const educationExperience: EducationExperienceItem[] = [
   {
-    period: "2022 – Present",
+    period: "2023 – Present",
     title: "Wachemo University",
     subtitle: "BSc in Software Engineering",
-    description: "Currently in my 3rd year, building a strong foundation in software development and computer science.",
+    description: "Currently in my 4th year, building a strong foundation in software development and computer science.",
     icon: "graduation-cap",
   },
   {
@@ -115,9 +116,9 @@ export const journeyTimeline = [
     description: "Completed primary and secondary education with a strong foundation in science and mathematics.",
   },
   {
-    period: "2022 – Present",
+    period: "2023 – Present",
     title: "Wachemo University",
-    description: "Software Engineering — 3rd Year, College of Engineering & Technology.",
+    description: "Software Engineering — 4th Year, College of Engineering & Technology.",
   },
   {
     period: "Future",
